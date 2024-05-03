@@ -1,0 +1,20 @@
+.mainsdiv{
+    background-color: white;
+    margin-top: 25px;
+    padding: 10px;
+    border-radius: 12px;
+}
+.mainsdiv>div{
+    margin: 20px;
+}
+
+h3{
+    font-weight: bolder;
+    font-size: 20px;
+}
+.flexdiv , .flexdivtwo{
+    display: flex;
+    gap: 100px;
+    
+}
+
