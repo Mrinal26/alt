@@ -1,8 +1,63 @@
-.mainlydiv{
-display: flex;
+.profilediv{
+    background-color: white;
+    margin: 25px;
+    border-radius: 12px;
+    padding: 15px;
+}
+.istodiv, .secondisto{
+    display: flex;
+    margin-bottom: 20px;
+}
+.littleflexing{
+    margin-top: auto;
+    display: flex;
+    gap: 30px;
 }
 
-.imagediv>img{
-    width: 100%;
-    height: 50%;
+.istodiv{
+    gap: 170px;
+    
+}
+.istodiv>h3{
+    font-size: 35px;
+    color: greenyellow;
+}
+.littleflexing>img{
+    width: 100px;
+    border-radius: 60px;
+}
+.loophole> button{
+    background-color: #4fd1c5;
+    color: white;
+    width: 50%;
+    margin: auto;
+    padding: 15px;
+    border-radius: 12px;
+    display: block;
+    
+}
+
+.firstp{
+    background-color: red;
+    padding: 8px;
+    border-radius: 8px;
+    width: 340px;
+}
+
+.secondp{
+    background-color: blue;
+    padding: 8px;
+    border-radius: 8px;
+    width: 310px;
+}
+
+.thirdp{
+    background-color: greenyellow;
+    padding: 8px;
+    border-radius: 8px;
+    width: 260px;
+}
+
+.percentagebar >div{
+    margin-bottom: 10px;
 }

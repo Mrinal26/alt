@@ -1,12 +1,13 @@
 import React from 'react'
-
+import './StudentProfile.css'
+import pro from './pro.png' ;
 function StudentProfile() {
   return (
-    <div className='mainlydiv'  >
+    <div className='profilediv'  >
       <div className='firstdiv'>
         <div className='istodiv'  >
-            <div className='littleflex'>
-                <img src="" alt="" />
+            <div className='littleflexing'>
+                <img src={pro} alt="" />
                 <div>
                     <h3>Saurav Singh</h3>
                     <p>saurav@gmail.com</p>
@@ -22,8 +23,11 @@ function StudentProfile() {
                 <p>Situation handling</p>
             </div>
             <div className='percentagebar'>
-
+                <div className='firstp'></div>
+                <div className='secondp'></div>
+                <div className='thirdp'></div>
             </div>
+
             <div className='score'>
                 <p>9/10</p>
                 <p>8/10</p>
@@ -31,7 +35,7 @@ function StudentProfile() {
             </div>
         </div>
 
-        <div>
+        <div className='loophole'>
             <div>
                 <h3>About</h3>
                 <p>lorem ipsum khsad sk kdanksd adkabdak dakdnakd a asndakd kansda kad adkadnakdadad</p>
