@@ -9,7 +9,6 @@
     margin-bottom: 20px;
 }
 .littleflexing{
-    margin-top: auto;
     display: flex;
     gap: 30px;
 }
